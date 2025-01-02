@@ -15,3 +15,13 @@ Ride ISEN est un site web entièrement développé en HTML et CSS, intégrant de
 ### Objectif 🎯
 
 Offrir un site pratique, intuitif et esthétique pour centraliser toutes les informations concernant nos activités et faciliter les inscriptions.
+
+
+### Lien utiles Formulaire
+> Location -> https://forms.gle/yoaozSgK54VzhPgL9
+
+> Permis Bateau -> https://forms.gle/KgUpED3iJVaurWjZ7
+
+> Réparation -> https://forms.gle/cBXQG1SrfQkzXrsZA
+
+> Initiation -> https://forms.gle/w7Bi5NBqaS5ssnem6
