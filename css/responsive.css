@@ -467,6 +467,9 @@
         width: 100%;
         padding-top: 90px;
     }
+    .team_ride {
+        width: 97%;
+    }
 }
 
 @media (max-width: 575px) {
@@ -681,5 +684,8 @@
     .email_text {
         width: 100%;
         padding-top: 90px;
+    }
+    .team_ride {
+        width: 97%;
     }
 }

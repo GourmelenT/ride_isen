@@ -476,10 +476,18 @@ button {
     float: left;
 }
 
-video{
+video {
     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     z-index: -1;
+    width: 100vw; /* Adapte la largeur à la taille de l'écran */
+    height: 120vh; /* Adapte la hauteur à la taille de l'écran */
+    object-fit: cover; /* Assure que la vidéo remplit bien l'écran */
+    object-position: center; /* Centre la vidéo */
 }
+
 
 iframe{
     margin-top: 2rem;
