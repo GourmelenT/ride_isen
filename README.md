@@ -1,2 +1,17 @@
-# ride_isen
-Ride ISEN is a website entirely developed in HTML and CSS, integrating modern frameworks to offer a fluid and attractive interface. The site is designed to advertise our activities, promote our events, and allow users to register easily via dedicated forms.
+# Ride ISEN 🌍🚴‍♂️
+
+Ride ISEN est un site web entièrement développé en HTML et CSS, intégrant des frameworks modernes pour offrir une interface fluide et attrayante. Ce site est conçu pour annoncer nos activités, promouvoir nos événements, et permettre aux utilisateurs de s'inscrire facilement via des formulaires dédiés.
+
+### Fonctionnalités principales 📋
+> 🎉 Présentation des activités : Retrouvez toutes nos activités et événements à venir.
+    
+> 🖇️ Liens vers des formulaires d'inscription : Inscrivez-vous rapidement pour participer à nos événements.
+    
+> 💻 Design responsive : Un site optimisé pour tous les appareils (desktop, tablette, mobile).
+    
+>⚡ Performance et simplicité : Développé avec des frameworks Bootstrap pour garantir une navigation rapide.
+
+
+### Objectif 🎯
+
+Offrir un site pratique, intuitif et esthétique pour centraliser toutes les informations concernant nos activités et faciliter les inscriptions.

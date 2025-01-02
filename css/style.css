@@ -1,0 +1,653 @@
+/*--------------------------------------------------------------------- File Name: style.css ---------------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------------- import Fonts ---------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@font-face {
+    font-family: "Righteous";
+    src: url("../fonts/BalooChettan-Regular.ttf");
+    src: url("../fonts/BalooChettan-Regular.ttf");
+}
+
+
+/*****---------------------------------------- 1) font-family: 'Rajdhani', sans-serif;
+ 2) font-family: 'Poppins', sans-serif;
+ ----------------------------------------*****/
+
+
+/*--------------------------------------------------------------------- import Files ---------------------------------------------------------------------*/
+
+@import url(animate.min.css);
+@import url(normalize.css);
+@import url(icomoon.css);
+@import url(css/font-awesome.min.css);
+@import url(meanmenu.css);
+@import url(owl.carousel.min.css);
+@import url(swiper.min.css);
+@import url(slick.css);
+@import url(jquery.fancybox.min.css);
+@import url(jquery-ui.css);
+@import url(nice-select.css);
+
+/*------------ ROOT --------------*/
+:root{
+    --presidence: #ED3080;
+    --pole: #FCE148;
+    --member-pole: #049DD6;
+}
+
+/*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
+
+* {
+    box-sizing: border-box !important;
+    transition: ease all 0.5s;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: #666666;
+    font-size: 14px;
+    /* line-height: 1.80857; */
+    font-weight: normal;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    color: #1f1f1f;
+    text-decoration: none !important;
+    outline: none !important;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    letter-spacing: 0;
+    font-weight: normal;
+    position: relative;
+    padding: 0 0 10px 0;
+    font-weight: normal;
+    line-height: normal;
+    color: #111111;
+    margin: 0
+}
+
+h1 {
+    font-size: 24px
+}
+
+h2 {
+    font-size: 22px
+}
+
+h3 {
+    font-size: 18px
+}
+
+h4 {
+    font-size: 16px
+}
+
+h5 {
+    font-size: 14px
+}
+
+h6 {
+    font-size: 13px
+}
+
+*,
+*::after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    color: #212121;
+    text-decoration: none!important;
+    opacity: 1
+}
+
+button:focus {
+    outline: none;
+}
+
+ul,
+li,
+ol {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+p {
+    margin: 7px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+strong{
+    color: hsl(0, 0%, 0%);
+    font-weight: bold;
+}
+
+a {
+    color: #222222;
+    text-decoration: none;
+    outline: none !important;
+}
+
+a,
+.btn {
+    text-decoration: none !important;
+    outline: none !important;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ :focus {
+    outline: 0;
+}
+
+.paddind_bottom_0 {
+    padding-bottom: 0 !important;
+}
+
+.btn-custom {
+    margin-top: 20px;
+    background-color: transparent !important;
+    border: 2px solid #ddd;
+    padding: 12px 40px;
+    font-size: 16px;
+}
+
+.lead {
+    font-size: 18px;
+    line-height: 30px;
+    color: #767676;
+    margin: 0;
+    padding: 0;
+}
+
+.form-control:focus {
+    border-color: #ffffff !important;
+    box-shadow: 0 0 0 .2rem rgba(255, 255, 255, .25);
+}
+
+.navbar-form input {
+    border: none !important;
+}
+
+.badge {
+    font-weight: 500;
+}
+
+blockquote {
+    margin: 20px 0 20px;
+    padding: 30px;
+}
+
+button {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.full {
+    float: left;
+    width: 100%;
+}
+
+.layout_padding {
+    padding-top: 90px;
+    padding-bottom: 0px;
+}
+
+.padding_0 {
+    padding: 0px;
+}
+
+
+/* header section start */
+
+.header_section {
+    width: 100%;
+    /* float: left; */
+    padding-bottom: 2vh;
+    z-index: 1000;
+}
+
+.bg-light {
+    background-color: transparent !important;
+}
+
+.logo_mobile img{
+    width: 60%;
+    float: left;
+    text-align: center;
+}
+
+.mobile_menu {
+    width: 100%;
+    float: left;
+    display: none;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: var(--member-pole);
+    background-color: #051a35;
+}
+
+.navbar-nav {
+    align-items: center;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.nav-item {
+    position: relative;
+}
+
+.menu_main {
+    display: flex; /* Utilise Flexbox pour aligner les enfants (logo et navbar) */
+    align-content: center; /* Centre verticalement le logo et la navigation */
+    justify-content: space-between; /* Sépare le logo à gauche et la navbar à droite */
+}
+
+.logo img {
+    max-height: 20vh;
+    padding-left: 2rem;
+}
+
+.navbar {
+    display: flex; /* Dispose les liens horizontalement */
+    list-style: none; /* Retire les puces des items */
+}
+
+.navbar li {
+    padding-right: 1rem;
+    text-transform: uppercase; /* Met le texte en majuscules */
+    font-size: 18px;
+}
+
+.navbar li a {
+    color: #ffffff; /* Couleur des liens */
+    text-decoration: none; /* Retire le soulignement */
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease; /* Ajoute une transition pour le survol */
+}
+
+.navbar li a:hover {
+    background-color: #051A35;
+    color: #ffffff;
+}
+
+.mb-lg-0,
+.my-lg-0 {
+    margin-bottom: 0!important;
+    width: 20%;
+    float: left;
+}
+
+.header_main {
+    width: 100%;
+    background-image: url(../images/header-bg.png);
+    background-size: 100%;
+    padding: 10px 0px 0px 0px;
+}
+
+/* header section end */
+
+
+/* banner section start */
+
+.banner_section {
+    width: 100%;
+    float: left;
+    padding-bottom: 0; /* Supprime la valeur précédente */
+    height: 600px; /* Fixe une hauteur constante */
+}
+
+.banner_taital {
+    width: 100%;
+    float: left;
+    font-size: 80px;
+    color: #F9F9F9;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Righteous', Regular;
+    text-shadow: 4px 3px 0px #051A35;
+}
+
+.banner_text {
+    width: 63%;
+    margin: 0 auto;
+    font-size: 16px;
+    color: #F9F9F9;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.6);
+    text-align: center;
+}
+
+.banner_text strong{
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.911);
+}
+
+.read_bt {
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.read_bt a {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #141414;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 30px;
+    margin-top: 50px;
+    font-weight: 400;
+}
+
+.read_bt a:hover {
+    background-color: #051A35;
+    color: #ffffff;
+}
+
+.read_bt.active a{
+    cursor: default; 
+    background-color: #051A35;
+    color: #ffffff;
+}
+
+
+/* banner section end */
+
+/* about section start */
+.about_section {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.about_taital_main {
+    width: 100%;
+    padding-left: 100px;
+    padding-top: 70px;
+}
+
+.padding_right_0 {
+    padding-right: 0px;
+}
+
+.about_taital {
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    color: #1f1f1f;
+    font-weight: bold;
+}
+
+.about_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #1f1f1f;
+    margin: 0px;
+    padding-top: 40px;
+}
+
+.readmore_bt {
+    width: 170px;
+    float: left;
+    margin-top: 50px;
+}
+
+.readmore_bt a {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #000d10;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.readmore_bt a:hover {
+    color: #ffffff;
+    background-color: #051A35;
+}
+
+.about_img {
+    width: 100%;
+    float: left;
+}
+
+video{
+    position: absolute;
+    z-index: -1;
+}
+
+iframe{
+    margin-top: 2rem;
+    width: 45vw;
+    height: 50vh;
+}
+
+
+/* team section start */
+
+.team_section {
+    text-align: center;
+    padding: 40px 0;
+    float: left; /* Ajoute le flottement à gauche */
+    margin-left: 50%; /* Positionne à 50% depuis la gauche */
+    transform: translateX(-50%); /* Recentre visuellement l'élément */
+    position: relative;
+    max-width: 1200px; /* Limite la largeur maximale */
+    width: 100%; /* Ajuste au conteneur parent */
+    margin-bottom: 2rem;
+}
+
+.team_taital {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.team_text {
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.team_ride {
+    padding: 3rem 2rem; 
+    background-color: #051a35; 
+    border-radius: 5rem; 
+    box-shadow: 15px 13px 31px 9px rgba(11,59,120,0.49);
+}
+
+.team_member {
+    width: 150px;
+    text-align: center;
+}
+
+.member_photo {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid #ddd;
+}
+
+.member_photo:hover{
+    border: 4px solid #ddd;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
+}
+
+.member_photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.member_name {
+    font-weight: bold;
+    margin-top: 10px;
+    color: var(--member-pole);
+}
+
+.member_role {
+    color: #677fc3;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+/* team section end */
+
+/* footer section start */
+
+.footer_section {
+    position: relative;
+    width: 100%;
+    background: linear-gradient(to bottom, #ffffff, #1a1a1a);
+    min-height: 120vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Box contact */
+.contact {
+    background-color: #051A35;
+    border-radius: 1rem;
+    box-shadow: 10px 10px 5px 0px rgba(55, 55, 55, 0.75);
+    padding: 2rem;
+    margin-inline: 5rem;
+    margin-top: 10rem;
+}
+
+/* Titre Contact */
+.contact_title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* Boîtes individuelles */
+.contact_box {
+    background-color: #f2f2f2;
+    border: 2px solid #000000;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Icônes de contact */
+.contact_icon {
+    font-size: 3rem;
+    color: #000000;
+    margin-bottom: 0.5rem;
+}
+
+/* Texte de contact */
+.contact_text {
+    font-size: 16px;
+    color: #333333;
+}
+
+.contact_text a {
+    text-decoration: none;
+    color: #051A35;
+}
+
+.contact_text a:hover {
+    color: #d05d33;
+}
+
+/* Copyright */
+.copyright_section {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.copyright_text {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+/* Copyright reste collé en bas */
+.copyright_section {
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 1rem 0;
+}
+
+.copyright_text a {
+    color: #ffffff;
+}
+
+.copyright_text a:hover {
+    color: #e27141;
+}
